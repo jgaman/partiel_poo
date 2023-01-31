@@ -134,6 +134,7 @@ Rahim = Etudiant("Rahim", "El", 5, [14, 13, 10], {
                  "pays": "Esi", "ville": "Langueux"})
 
 # teste des différentes méthodes de la classe Etudiant
+print(Rahim.afficher_notes())
 print(Paul.afficher_moyenne())
 print(Mat)
 
