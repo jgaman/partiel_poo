@@ -23,8 +23,7 @@ class Etudiant:
     - objet de type Etudiant
     - __get__: retourne la valeur de l'attribut de l'etudiant
     - __set__: modifie la valeur de l'attribut de l'etudiant
-    - __str__: retourne le nom, le prenom, les notes, la nationalité et l'id de l'etudiant quand on imprime un
-    - objet de type Etudiant
+
     """
 
     def __init__(self, nom: str, prenom: str, identifiant: int, notes: list, nationalite: dict):
@@ -118,9 +117,6 @@ pour la matière spécifiée à tous les étudiants de la promotion'''
                 pass
 
 
-
-    
-    
 # Création d'objets de type Etudiant
 Mat = Etudiant("Mat", "Luc", 1, [10, 12, 14], {
                "pays": "France", "ville": "Lyon"})
